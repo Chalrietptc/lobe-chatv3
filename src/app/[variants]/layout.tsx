@@ -1,10 +1,10 @@
-import { SpeedInsights } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeAppearance } from 'antd-style';
 import { ResolvingViewport } from 'next';
 import { ReactNode } from 'react';
 import { isRtlLang } from 'rtl-detect';
 
-import Analytics from '@vercel/analytics/react';
+import Analytics from '@/components/Analytics';
 import { DEFAULT_LANG } from '@/const/locale';
 import PWAInstall from '@/features/PWAInstall';
 import AuthProvider from '@/layout/AuthProvider';
